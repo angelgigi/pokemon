@@ -1,0 +1,14 @@
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse; /* 去除默认单元格间距 */
+    border: 1px solid #ccc; /* 添加表格边框 */
+  }
+  th, td {
+    border: 1px solid #ccc; /* 单元格边框 */
+    padding: 20px 40px; /* 内边距：上下20px，左右40px */
+    text-align: center; /* 内容居中 */
+  }
+  th {
+    background-color: #f4f4f4; /* 表头背景色 */
+  }
